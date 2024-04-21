@@ -1,0 +1,25 @@
+# Be polite with your OS :)
+alias please="sudo"
+
+# Directories helpers
+alias la="ls -lahiF"
+# cd with ls -al
+function cdl() {
+  cd $1 && la .
+}
+
+alias projects="cdl ~/projects"
+
+# Docker helpers
+alias containers="docker container ls -a"
+alias images="docker image ls -a"
+
+# Networking helpers
+alias ports="sudo lsof -i -P -n | grep LISTEN"
+
+# Git helpers
+alias push="git push"
+alias pull="git pull"
+alias merge="git merge"
+alias commit="git commit"
+alias commit-count="git shortlog --summary --numbered --all --no-merges"
