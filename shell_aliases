@@ -27,3 +27,6 @@ alias commit-count="git shortlog --summary --numbered --all --no-merges"
 
 # Development and editor helpers
 alias svim="sudo vim"
+
+# NodeJS package dependency managers
+alias p="pnpm"
