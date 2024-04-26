@@ -11,6 +11,10 @@ function cdl() {
 
 alias projects="cdl ~/projects"
 
+alias ".."="cdl .."
+alias "..."="cdl ../.."
+alias .3="cdl ../../.."
+
 # Docker helpers
 alias containers="docker container ls -a"
 alias images="docker image ls -a"
