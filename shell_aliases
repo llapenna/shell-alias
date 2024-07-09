@@ -34,3 +34,4 @@ alias svim="sudo vim"
 
 # NodeJS package dependency managers
 alias p="pnpm"
+alias px="pnpx"
